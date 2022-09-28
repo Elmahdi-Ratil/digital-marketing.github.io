@@ -43,7 +43,7 @@
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-}
+} 
 
 a {
     font-family: 'Rubik';
@@ -122,7 +122,6 @@ header {
     width: 70%;
     position: relative;
     display: flex;
-    
 }
 .menu a:hover {
     color: #fff ;
@@ -178,7 +177,7 @@ section.header-bg-parent {
 
 .header-col1 {
     float: left;
-    width: 70%;
+    width: 55%;
     position: absolute;
     top: 30%;
     left: 35%;
@@ -203,16 +202,16 @@ section.header-bg-parent {
     margin: -80px;
 }
 
-.header-col1 h2 {
+.header-col1 h1 {
     color: #3697d5;
     font-size: 60px;
 }
 
-.header-col1 h2 {
+.header-col1 h1 {
     color: #3697d5;
     font-size: 60px;
     line-height: 43px;
-    margin: 95px 0px 290px;
+    margin: 115px 0px 255px;
 }
 
 .header-col1 p {
@@ -251,11 +250,6 @@ section.header-bg-parent:after {
     font-weight: 800;
     letter-spacing: 5px;
     z-index: -1;
-}
-
-.hedaer-bg-par-img {
-    position: absolute;
-    bottom: -110px;
 }
 
 
@@ -405,7 +399,7 @@ section#why-choose-us {
 
 .circle {
     width: 200px;
-    margin: 6px 6px 20px;
+    margin: 6px 6px 6px;
     display: inline-block;
     position: relative;
     text-align: center;
@@ -512,7 +506,7 @@ section#why-choose-us {
 }
 
 .progress-info {
-    margin: 30px 0px 60px;
+    margin: 46px 0px 70px;
 }
 
 section#expand {
@@ -750,7 +744,7 @@ button.price-btn:hover {
 
 .blog-col a {
     color: #3697d5;
-    font-size: 13px;
+    font-size: 15px;
     font-family: "Rubik";
     font-weight: 600;
     text-decoration: none;
@@ -760,7 +754,7 @@ button.price-btn:hover {
 
 .blog-col a {
     color: #3697d5;
-    font-size: 13px;
+    font-size: 15px;
     font-family: "Rubik";
     font-weight: 600;
     text-decoration: none;
@@ -773,90 +767,247 @@ button.price-btn:hover {
 .blog-col a:after {
     content: "\f178";
     font-family: "FontAwesome";
-    margin-left: -14px;
-    padding-left: 12px;
+    margin-left: -55px;
+    padding-left: 55px;
     transition: all 0.5s ease;
     visibility: hidden;
 }
 
 .blog-col a:hover:after {
     visibility: visible;
-    margin-left: 14px;
+    margin-left: 55px;
 }
 
 section#blog {
-    margin: 80px 0px;
+    margin: 200px 0px;
 }
 
 .blog-col img {
-    border-radius: 5px;
-    transition: all 0.5s ease-in;
+    border-radius: 35px;
+    transition: all 0.4s ease-in;
 }
 
 .blog-col img:hover {
+    border-radius: 0px 160px;
     transform: scale(1.1, 1.1);
 }
 
 /*contact*/
 
-#contact {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/homecontact-bg.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 150px 0px;
+section#contact {
+    padding: 55px 0;
+    background: linear-gradient(90deg,#3697d5 0%, #3697d5 30%, #56575f 30%, #56575f 100%);
 }
 
-.form-par {
-    background-image: linear-gradient(20deg, #3697d5 0%, #3697d5 57%);
-    padding: 30px 40px;
-    width: 50%;
-    margin: 0 auto;
-}
-
-.form-com {
+.contactUs
+{
+    position: relative;
     width: 100%;
-    height: 40px;
-    margin: 10px 0px;
-    padding: 10px 10px;
+    padding: 25px 100px;
 }
 
-.form-par h2 {
+.contactUs .title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.contactUs .title h2
+{
     color: #fff;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 800;
-    font-family: "Nunito";
-    margin-bottom: 25px;
+    font-weight: 500;
 }
 
-input.submit-btn {
+.form
+{
+    grid-area: form;
+}
+.map
+{
+    grid-area: map;
+}
+
+.contact
+{
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
+}
+
+.box
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas: "form info" "form map";
+    grid-gap: 20px;
+    margin-top: 15px;
+}
+
+.contact h3
+{
+    color: #56575f;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+/* Form */
+
+.formBox
+{
+    position: relative;
+    width: 100%;
+}
+.formBox .row50
+{
+    display: flex;
+    gap: 20px;
+}
+.inputBox
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    width: 50%;
+}
+.formBox .row100 .inputBox
+{
+    width: 100%;
+}
+.inputBox span
+{
+    color: #3697d5;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.inputBox input
+{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #56575f;
+}
+.inputBox textarea
+{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #56575f;
+    resize: none;
+    min-height: 220px;
+    margin-bottom: 5px;
+}
+.inputBox input[type="submit"]
+{
+    background: #56575f;
     color: #fff;
     border: none;
-    background-image: linear-gradient(180deg, #059DDE 0%, #1A2E84 100%);
-    padding: 14px 40px;
-    margin: 20px auto 0px;
-    display: block;
+    font-size: 1.1em;
+    max-width: 120px;
+    font-weight: 500;
     cursor: pointer;
-    transition: all 0.5s ease;
+    padding: 14px 15px;
+}
+.inputBox input[type="submit"]:hover
+{
+    background: #3697d5;
+}
+.inputBox ::placeholder
+{
+    color: #999;
 }
 
-input.submit-btn:hover {
-    background-image: linear-gradient(180deg, #1A2E84 0%, #059DDE 100%);
+/* info */
+.info
+{
+    background: #3697d5;
 }
+.info h3
+{
+    color: #fff;
+}
+.info .infoBox div
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.info .infoBox div span
+{
+    min-width: 40px;
+    height: 40px;
+    color: #fff;
+    background: #56575f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.info .infoBox div p
+{
+    color: #fff;
+    font-size: 1.1em;
+}
+.info .infoBox div a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.sci
+{
+    margin-top: 40px;
+    display: flex;
+}
+.sci li
+{
+    list-style: none;
+    margin-right: 15px;
+}
+.sci li a
+{
+    color: #fff;
+    font-size: 2em;
+    color: #ccc;
+}
+.sci li a:hover
+{
+    color: #fff;
+}
+
+
+/* Map */
+.map
+{
+    padding: 0;
+}
+.map iframe
+{
+    width: 100%;
+    height: 100%;
+}
+
+/* Footer */
 
 .footer-col {
     float: left;
     width: 30%;
-    margin-right: 3%;
-    margin-top: 45px;
+    margin-right: 20%;
+    margin-top: 30px;
     width: 461px;
 }
 
 .footer-2-col {
     position: relative;
-    left: 5px;
-    width: 20%;
+    left: 100px;
+    width: 15%;
 }
 
 .footer-col h3 {
@@ -872,23 +1023,6 @@ input.submit-btn:hover {
     font-family: "Rubik";
     font-weight: 400;
     line-height: 28px;
-}
-
-.footer-col i {
-    color: #fff;
-    background-color: #3697d5;
-    border-radius: 50px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    margin-top: 25px;
-    cursor: pointer;
-    transition: all 0.5s ease;
-}
-
-.social-icons-footer i:hover {
-    transform: translateY(-10px)
 }
 
 .footer-col.footer-2-col ul li {
@@ -926,5 +1060,5 @@ p.copyright-footer {
 }
 
 hr.footer-hr {
-    margin: 60px 0px 20px;
+    margin: 20px 0px 0px;
 }
