@@ -392,3 +392,172 @@
     }
 
 }
+
+@media screen and (max-width:390px) {
+    
+    #mobile-menu {
+        display: block;
+        z-index: 1;
+        position: relative;
+        top: -30px;
+    }
+    .mobile-logo {
+        margin: 20px;
+        float: left;
+        width: 30%;
+        position: relative;
+        top: 35px;
+    }
+    .cnt-info-col {
+        float: right;
+        text-align: right;
+        width: 80%;
+        margin: 0 15px;
+        position: relative;
+        top: -25px;
+    }
+    div.menu {
+        float: none;
+        width: 100%;
+        background-color: #000;
+        text-align: center;
+        display: none;
+        position: relative;
+        top: -31px;
+        display: block;
+    }
+    section.header-bg-parent {
+        position: relative;
+        top: -31px;
+    }
+    .header-col1 h5 {
+        color: #fff;
+        font-size: 25px;
+        font-weight: 300;
+        letter-spacing: 15px;
+        margin: 85px 0px 10px;
+    }
+    .header-col1 h1 {
+        color: #3697d5;
+        font-size: 30px;
+        line-height: 40px;
+        margin: 5px 0px 139px;
+    }
+    /* Sommes-nous */
+    section#why-choose-us {
+        margin-top: -31px;
+    }
+    .text-center {
+        text-align: center;
+        position: relative;
+        top: 10px;
+    }
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .feature-col {
+        padding: 30px;
+        width: 100%;
+        float: none;
+        margin-right: 0%;
+        margin-left: 0%;
+        box-shadow: 2px 2px 10px #fefefe;
+        border-radius: 13px;
+        transition: all 0.5s ease;
+        height: 165px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .feature-col h3 {
+        font-family: 'Rubik', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        position: relative;
+        top: -25px;
+    }
+    .feature-col img {
+        width: 80px;
+        height: 80px;
+        margin: 5px auto;
+        position: relative;
+        top: -25px;
+    }
+    .feature-col h4 {
+        font-size: 14px;
+        font-family: 'Rubik', sans-serif;
+        color: #3697d5;
+        margin-bottom: 10px;
+        position: relative;
+        top: -28px;
+    }
+    /* Nou service */
+    .expand-img-col {
+        float: none;
+        width: 100%;
+        margin-top: 40px;
+        padding: 0 10px;
+    }
+    .expand-img-info {
+        position: absolute;
+        top: 30px;
+        left: 100px;
+        color: #ffff;
+    }
+    .expand-img-info a {
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none;
+        padding-top: 10px;
+        display: inline-block;
+    }
+    .expand-img-info-col {
+        float: none;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .circle {
+        width: 120px;
+        margin: 10px 6px 25px;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        line-height: 1.2;
+    }
+    .progress-info {
+        margin: 30px 0px 35px;
+    }
+    /* Blog */
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .blog-col {
+        float: none;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 30px;
+        overflow: hidden;
+        text-align: center;
+    }   
+    .blog-col a {
+        color: #3697d5;
+        font-size: 15px;
+        font-family: "Rubik";
+        font-weight: 600;
+        text-decoration: none;
+        margin-top: 10px;
+        display: inline-block;
+        position: relative;
+        transition: all 0.5s ease;
+    }
+    /* contact */
+    section#contact {
+        background: #3697d5;
+        padding: 0px 0px;
+    }
+}

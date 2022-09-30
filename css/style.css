@@ -196,7 +196,7 @@ section.header-bg-parent {
 
 .header-col1 h5 {
     color: #000;
-    font-size: 20px;
+    font-size: 35px;
     font-weight: 700;
     letter-spacing: 11px;
     margin: -80px;
@@ -211,7 +211,7 @@ section.header-bg-parent {
     color: #3697d5;
     font-size: 60px;
     line-height: 43px;
-    margin: 115px 0px 255px;
+    margin: 96px 0px 283px;
 }
 
 .header-col1 p {
@@ -722,7 +722,7 @@ button.price-btn:hover {
     float: left;
     width: 30%;
     margin-left: 3%;
-    margin-top: 45px;
+    margin-top: 120px;
     overflow: hidden;
 }
 
@@ -779,7 +779,7 @@ button.price-btn:hover {
 }
 
 section#blog {
-    margin: 200px 0px;
+    margin: 225px 0px;
 }
 
 .blog-col img {
