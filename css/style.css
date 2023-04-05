@@ -94,7 +94,7 @@ p {
 header {
   z-index: 1;
   position: relative;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 .nav-col {
@@ -198,16 +198,16 @@ section.header-bg-parent {
 
 .header-col1 h1 {
   color: #3697d5;
-  font-size: 54px;
+  font-size: 45px;
   line-height: 43px;
-  margin: 0px -54px 11px;
+  margin: 0px -45px 11px;
 }
 
 .header-col1 p {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 26px;
-  margin: 0px -51px 0px;
+  margin: 0px -30px 0px;
 }
 
 button.common-btn {
@@ -220,7 +220,7 @@ button.common-btn {
   font-family: "Nunito";
   font-weight: 800;
   cursor: pointer;
-  margin: 20px -115px 0px;
+  margin: 5px -115px 0px;
   transition: all 0.5s ease;
 }
 
