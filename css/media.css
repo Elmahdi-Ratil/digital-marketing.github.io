@@ -1,3 +1,15 @@
+@media  and (max-width: 875px) {
+
+    #home  {
+        display: none;
+    }
+
+    #
+
+}
+
+
+
 @media screen and (max-width:768px) {
 
     #home {
@@ -41,10 +53,10 @@
         display: none;
     }
 
-    .menu a {
+    .menu a{
         display: block;
     }
-
+    
     section.header-bg-parent {
         position: relative;
         top: 0px;
