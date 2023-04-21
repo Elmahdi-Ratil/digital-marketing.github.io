@@ -39,7 +39,6 @@
 }
 
 .container {
-  max-width: 1800px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -489,6 +488,7 @@ section#why-choose-us {
   font-family: "Rubik";
   line-height: 24px;
   padding-top: 10px;
+  line-break: anywhere;
 }
 
 .progress-info {
@@ -800,12 +800,6 @@ section#contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2em;
-}
-
-.contactUs .title h2 {
-  color: #fff;
-  font-weight: 500;
 }
 
 .form {
@@ -833,7 +827,7 @@ section#contact {
 
 .contact h3 {
   color: #56575f;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 1.4em;
   margin-bottom: 5px;
 }
@@ -972,7 +966,7 @@ section#contact {
 
 .footer-col h3 {
   color: #3697d5;
-  font-family: "Nunito";
+  font-family: "Rubik";
   font-weight: 800;
   margin-bottom: 20px;
 }
@@ -980,7 +974,7 @@ section#contact {
 .footer-col p {
   color: #676f71;
   font-size: 16px;
-  font-family: "Rubik";
+  font-family: "Nunito";
   font-weight: 400;
   line-height: 28px;
 }
