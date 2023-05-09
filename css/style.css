@@ -137,6 +137,7 @@ header {
   color: #000000;
   text-decoration: none;
   margin-top: 23px;
+  margin-right: -87px;
   display: inline-block;
   font-size: 16px;
   font-weight: 400;
@@ -149,7 +150,7 @@ header {
 
 section.header-bg-parent {
   position: relative;
-  top: -65px;
+  top: -173px;
 }
 
 .header-col1 {
